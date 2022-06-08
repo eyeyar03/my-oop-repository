@@ -35,6 +35,16 @@ public class ShapeFactory {
 
         Bouncable obtuseTriangle2 = new ObtuseTriangle();
         bounce(obtuseTriangle2);
+
+        System.out.println("Exercise....");
+        PaintTool paintTool = new PaintTool();
+        Square square4 = new Square("SquareFour");
+        Shape acuteTriangle2 = new AcuteTriangle();
+        Shape obtuseTriangle3 = new ObtuseTriangle();
+        paintTool.paint(square4);
+        paintTool.paint(acuteTriangle2);
+        paintTool.paint(obtuseTriangle3);
+
     }
 
     public static void draw(Shape shape) {
