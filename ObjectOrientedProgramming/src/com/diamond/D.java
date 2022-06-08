@@ -5,6 +5,6 @@ public class D extends C implements E, F{
 
     @Override
     public void doSomething() {
-        System.out.println("Method of D");
+        System.out.println("Method of d");
     }
 }
