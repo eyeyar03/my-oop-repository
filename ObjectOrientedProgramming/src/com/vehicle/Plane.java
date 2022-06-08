@@ -14,6 +14,6 @@ public class Plane extends Vehicle implements Acceleratable, Flyable {
 
     @Override
     public void preno() {
-        System.out.println("Plane is breaking...");
+        System.out.println("Plane is breaking....");
     }
 }
